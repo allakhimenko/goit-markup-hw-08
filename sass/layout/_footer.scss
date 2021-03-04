@@ -1,0 +1,39 @@
+.footer {
+  background-color: var(--primary-background-color);
+}
+
+.page-footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &--left {
+    display: block;
+  }
+
+  &--center {
+    margin-left: 70px;
+    margin-top: 12px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
+
+  &__social-links {
+    margin-top: 20px;
+  }
+
+  &--right {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    margin-top: 72px;
+  }
+}
