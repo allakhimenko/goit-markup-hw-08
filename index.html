@@ -59,6 +59,53 @@
               >
             </li>
           </ul>
+
+          <button class="menu-mobile__button--open" data-menu-button>
+            <svg class="menu-mobile__icon" width=24 height=18>
+              <use href="./images/symbol-defs.svg#icon-menu_mobile" ></use>
+            </svg>
+          </button>
+
+          <div class="menu-mobile" data-menu>
+            <button class="menu-mobile__button--close" data-menu-close>
+            <svg class="menu-mobile__icon" width=24 height=18>
+              <use href="./images/symbol-defs.svg#icon-close_mobile" ></use>
+            </svg>
+          </button>
+            <ul class="menu-mobile__list--up">
+              <li class="menu-mobile__item">
+                <a href="./index.html" class="menu__link">Студия</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a href="./portfolio.html" class="menu__link">Портфолио</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a href="./contacts.html" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+            <ul class="menu-mobile__list--down">
+              <li class="menu-mobile__item">
+                <a href="" class="menu-mobile__link">+38 096 111 11 11</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a href="" class="menu-mobile__link">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="" class="social__link">Instagram</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">Facebook</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -483,7 +530,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container container--down">
         <div class="page-footer">
           <div class="page-footer--left">
             <a href="" class="logo logo--bottom">
@@ -552,5 +599,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu-mobile.js"></script>
   </body>
 </html>
