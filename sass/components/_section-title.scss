@@ -1,4 +1,6 @@
-.section-title {
+.directions__title,
+.team__title,
+.clients__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -8,4 +10,10 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+
+.directions__title {
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }

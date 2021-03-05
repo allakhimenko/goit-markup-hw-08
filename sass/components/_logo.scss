@@ -11,6 +11,10 @@
     &--blue {
       color: var(--accent-color);
     }
+
+    &--bottom {
+      color: #ffffff;
+    }
   }
 }
 
@@ -20,10 +24,6 @@
 
     &--frame {
       position: relative;
-    }
-
-    &--bottom {
-      color: #ffffff;
     }
   }
 }

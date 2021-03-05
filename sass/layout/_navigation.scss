@@ -28,6 +28,12 @@
 
     background-color: #fff;
     z-index: 99;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-mobile.is-open {
+    transform: translateX(-50%) translateY(0%);
   }
 
   .menu-mobile__button--open,

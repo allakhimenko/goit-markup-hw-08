@@ -17,5 +17,9 @@
 .address__link {
   color: rgba(255, 255, 255, 0.6);
   padding: 0;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 8px;
+  }
   margin-top: 9px;
 }
