@@ -1,20 +1,30 @@
 .clients {
-  padding-top: 94px;
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+  }
 }
 
 .clients__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 94px;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: -15px;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+  }
 }
 
 .clients__item {
-  &:not(:last-child) {
-    margin-right: 30px;
+  margin: 15px;
+
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
 
@@ -22,9 +32,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 90px;
   padding-bottom: 0;
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
 
   border: 1px solid var(--icons-color);
   color: var(--icons-color);

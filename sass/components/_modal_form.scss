@@ -115,13 +115,17 @@
 }
 
 .form__label--checkbox {
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
   display: flex;
   align-items: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
   color: var(--primary-text-color);
   cursor: pointer;
 
@@ -142,14 +146,16 @@
 }
 
 .form__link {
-  display: flex;
-  align-items: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
 
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
   color: var(--primary-text-color);
   cursor: pointer;
   text-decoration: underline;

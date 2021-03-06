@@ -1,15 +1,17 @@
 .hero {
   position: relative;
 
-  max-width: 1600px;
+  width: 100%;
+  max-width: 767px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-size: cover;
+
   margin: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
 
   background-image: url(../images/hero-img/mobile-hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1600px 600px;
 
   &::before {
     content: "";
@@ -30,6 +32,8 @@
     & {
       background-image: url(../images/hero-img/mobile-hero-img@2x.jpg);
       background-size: cover;
+      width: 100%;
+      max-width: 767px;
       padding-top: 118px;
       padding-bottom: 118px;
     }
@@ -38,6 +42,11 @@
   @media screen and (min-width: 768px) {
     & {
       background-image: url(../images/hero-img/tablet-hero-img.jpg);
+      width: 100%;
+      max-width: 1199px;
+      padding-top: 118px;
+      padding-bottom: 118px;
+      background-size: cover;
     }
   }
 
@@ -52,6 +61,11 @@
   @media screen and (min-width: 1200px) {
     & {
       background-image: url(../images/hero-img/desktop-hero-img.jpg);
+      max-width: 1600px;
+      margin: auto;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-size: 1600px 600px;
     }
   }
 
@@ -60,6 +74,11 @@
     screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     & {
       background-image: url(../images/hero-img/desktop-hero-img@2x.jpg);
+      max-width: 1600px;
+      margin: auto;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-size: 1600px 600px;
     }
   }
 }
