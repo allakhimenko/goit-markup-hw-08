@@ -3,6 +3,7 @@
 
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -14,7 +15,8 @@
   margin: -15px;
 
   @media screen and (min-width: 1200px) {
-    padding-bottom: 94px;
+    flex-wrap: nowrap;
+    margin: 0;
   }
 }
 
@@ -22,6 +24,8 @@
   margin: 15px;
 
   @media screen and (min-width: 1200px) {
+    margin: 0;
+
     &:not(:last-child) {
       margin-right: 30px;
     }

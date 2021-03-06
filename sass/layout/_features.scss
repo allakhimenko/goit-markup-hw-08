@@ -23,6 +23,8 @@
 
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
 
@@ -38,6 +40,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    margin: 0;
+
     &:not(:last-child) {
       margin-right: 30px;
     }
@@ -100,5 +104,9 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 }

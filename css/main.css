@@ -1332,6 +1332,11 @@ a {
 @media screen and (min-width: 1200px) {
   .features__list {
     padding: 94px 0;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1348,6 +1353,9 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
+  .features__item {
+    margin: 0;
+  }
   .features__item:not(:last-child) {
     margin-right: 30px;
   }
@@ -1425,6 +1433,12 @@ a {
 @media screen and (min-width: 768px) {
   .features__text {
     width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__text {
+    width: 270px;
   }
 }
 
@@ -1546,6 +1560,8 @@ a {
 @media screen and (min-width: 1200px) {
   .team__card {
     height: 428px;
+    width: 270px;
+    margin: 0;
   }
   .team__card:not(:last-child) {
     margin-right: 30px;
@@ -1596,6 +1612,7 @@ a {
 @media screen and (min-width: 1200px) {
   .clients {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -1614,7 +1631,9 @@ a {
 
 @media screen and (min-width: 1200px) {
   .clients__list {
-    padding-bottom: 94px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0;
   }
 }
 
@@ -1623,6 +1642,9 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
+  .clients__item {
+    margin: 0;
+  }
   .clients__item:not(:last-child) {
     margin-right: 30px;
   }
@@ -1819,6 +1841,12 @@ a {
     top: 0;
     right: 15px;
     margin-top: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 

@@ -55,6 +55,8 @@
 
   @media screen and (min-width: 1200px) {
     height: 428px;
+    width: 270px;
+    margin: 0;
 
     &:not(:last-child) {
       margin-right: 30px;
