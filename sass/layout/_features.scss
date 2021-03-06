@@ -10,14 +10,15 @@
 }
 
 .features__list {
-  padding: 60px 0;
+  padding: 45px 0;
   margin: 0;
 
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 0;
+    margin-right: -15px;
+    margin-left: -15px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -30,6 +31,10 @@
     &:not(:last-child) {
       margin-bottom: 30px;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 15px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -49,11 +54,17 @@
   border-radius: 4px;
   height: 120px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
 
-  width: 270px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 
 .features__subtitle {
@@ -82,8 +93,12 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     margin-right: 0;
     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
   }
 }
