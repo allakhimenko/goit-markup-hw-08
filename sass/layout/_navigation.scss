@@ -144,10 +144,30 @@
     fill: var(--title-text-color);
   }
 
+  .menu-mobile__button--open {
+    fill: var(--title-text-color);
+    transform: fill 250ms linear 500ms;
+
+    &:active,
+    &:focus,
+    &:hover {
+      fill: var(--accent-color);
+    }
+  }
+
   .menu-mobile__button--close {
     position: absolute;
     top: 10px;
     right: 15px;
+
+    fill: var(--title-text-color);
+    transform: fill 250ms linear 500ms;
+
+    &:active,
+    &:focus,
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
 }
 
