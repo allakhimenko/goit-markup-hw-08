@@ -117,10 +117,8 @@
       padding-right: 9px;
       border-right: 1px solid rgba(33, 33, 33, 0.2);
     }
-
     &:not(:first-child) {
-      padding-left: 10px;
-      border: none;
+      padding-left: 9px;
     }
   }
 
@@ -130,16 +128,6 @@
     line-height: 22px;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-  }
-
-  .social--line {
-    margin: 0 10px;
-
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;
-    letter-spacing: 0.02em;
-    color: rgba(33, 33, 33, 0.2);
   }
 
   .menu-mobile__button--open,
