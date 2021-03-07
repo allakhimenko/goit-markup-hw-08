@@ -22,6 +22,16 @@
     }
   }
 
+  @media screen and (max-width: 479px) {
+    width: 90%;
+    height: 100%;
+    max-height: 404px;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
   background-color: var(--primary-white-color);
   box-sizing: border-box;
 
@@ -55,15 +65,28 @@
     margin-bottom: 30px;
     height: 404px;
   }
+
+  @media screen and (max-width: 479px) {
+    width: 90%;
+  }
 }
 
 .project__card {
   position: relative;
   height: 294px;
   overflow: hidden;
+
+  @media screen and (max-width: 479px) {
+    height: 100%;
+  }
 }
 
 .project__image {
+  @media screen and (max-width: 479px) {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+  }
   @media screen and (min-width: 1200px) {
     height: 294px;
     width: 100%;
@@ -103,6 +126,10 @@
 .project__meta {
   display: block;
   height: 146px;
+
+  @media screen and (max-width: 479px) {
+    height: 100%;
+  }
 
   @media screen and (min-width: 1200px) {
     height: 110px;
