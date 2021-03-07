@@ -904,7 +904,7 @@ a {
         -ms-flex-align: start;
             align-items: flex-start;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 48px 40px;
     margin: auto;
     background-color: #fff;
@@ -980,6 +980,7 @@ a {
   }
   .social__item:not(:first-child) {
     padding-left: 10px;
+    border: none;
   }
   .social__link {
     font-weight: 500;
@@ -1256,7 +1257,7 @@ a {
   background-color: rgba(47, 48, 58, 0.4);
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px), (max-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-resolution: 2dppx) and (min-width: 480px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .hero {
     background-image: url(../images/hero-img/mobile-hero-img@2x.jpg);
     background-size: cover;
