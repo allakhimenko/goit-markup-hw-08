@@ -30,7 +30,7 @@
     align-items: flex-start;
 
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 48px 40px;
     margin: auto;
 
@@ -120,6 +120,7 @@
 
     &:not(:first-child) {
       padding-left: 10px;
+      border: none;
     }
   }
 
